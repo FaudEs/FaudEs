@@ -1,0 +1,118 @@
+:root {
+    --background-light: #f4f4f9;
+    --text-light: #333;
+    --primary-light: #007bff;
+    --card-light: #ffffff;
+
+    --background-dark: #1e1e2f;
+    --text-dark: #f0f0f0;
+    --primary-dark: #00b4d8;
+    --card-dark: #2c2c3c;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: all 0.3s ease-in-out;
+}
+
+header {
+    background: var(--primary-light);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header button {
+    background: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header button:hover {
+    background: #eee;
+}
+
+nav {
+    background: var(--primary-light);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-grid {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: var(--card-light);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    background: var(--primary-light);
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+body.dark-mode header {
+    background: var(--primary-dark);
+}
+
+body.dark-mode nav {
+    background: var(--primary-dark);
+}
+
+body.dark-mode .project-card {
+    background: var(--card-dark);
+}
