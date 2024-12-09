@@ -18,7 +18,7 @@
 
 👤**FaudEs**
 
-* Github: [@son ID](https://github.com/FaudEs ID)
+* Github: https://github.com/FaudEs
 
 ***
 
@@ -26,7 +26,7 @@
 
 ![left 100%](bandeau du projet.png?raw=true)
 
-_`Début du projet le DATE`_
+_`Coming Soon`_
 
 <!-- LOGO DU PROJET -->
 <br />
