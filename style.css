@@ -1,55 +1,20 @@
-:root {
-    --background-light: #f4f4f9;
-    --text-light: #333;
-    --primary-light: #007bff;
-    --card-light: #ffffff;
-
-    --background-dark: #1e1e2f;
-    --text-dark: #f0f0f0;
-    --primary-dark: #00b4d8;
-    --card-dark: #2c2c3c;
-}
-
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    padding: 0;
     line-height: 1.6;
-    background-color: var(--background-light);
-    color: var(--text-light);
-    transition: all 0.3s ease-in-out;
-}
-
-header {
-    background: var(--primary-light);
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
-}
-
-header button {
-    background: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-header button:hover {
-    background: #eee;
 }
 
 nav {
-    background: var(--primary-light);
+    background: #007bff;
     color: #fff;
     padding: 1rem 0;
 }
 
 nav ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -64,10 +29,13 @@ nav ul li a {
     font-weight: bold;
 }
 
-main {
+section {
     padding: 2rem;
-    max-width: 900px;
-    margin: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    margin-top: 0;
 }
 
 .project-grid {
@@ -78,41 +46,11 @@ main {
 }
 
 .project-card {
-    background: var(--card-light);
+    background: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
     width: 300px;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-}
-
-footer {
-    text-align: center;
-    background: var(--primary-light);
-    color: #fff;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-/* Dark mode styles */
-body.dark-mode {
-    background-color: var(--background-dark);
-    color: var(--text-dark);
-}
-
-body.dark-mode header {
-    background: var(--primary-dark);
-}
-
-body.dark-mode nav {
-    background: var(--primary-dark);
-}
-
-body.dark-mode .project-card {
-    background: var(--card-dark);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
