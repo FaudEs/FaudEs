@@ -1,167 +1,190 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Simple</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Styles globaux */
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        nav {
-            background: #007bff;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            margin: 0 1rem;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-        nav ul li a:hover {
-            color: #f0f0f0;
-        }
-        main {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-        section {
-            padding: 2rem;
-            border-bottom: 1px solid #ddd;
-        }
-        section h2 {
-            margin-top: 0;
-            color: #007bff;
-        }
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            justify-content: center;
-        }
-        .project-card {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 1.5rem;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        .project-card:hover {
-            transform: scale(1.05);
-        }
-        .project-card a {
-            display: inline-block;
-            margin-top: 1rem;
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .project-card a:hover {
-            text-decoration: underline;
-        }
-        #contact a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        #contact a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #007bff;
-            color: white;
-            margin-top: 1rem;
-        }
-        @media (max-width: 600px) {
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-            nav ul li {
-                margin: 0.5rem 0;
-            }
-            section {
-                padding: 1rem;
-            }
-            .project-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#about"><i class="fas fa-user"></i> À propos</a></li>
-            <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projets</a></li>
-            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>À propos de moi</h2>
-            <p>
-                Salut ! Je suis un développeur full-stack avec une passion pour la création de projets innovants.
-                Toujours en quête d'apprentissage et d'amélioration.
-            </p>
-        </section>
-        <section id="projects">
-            <h2>Mes projets</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Projet 1</h3>
-                    <p>Un projet incroyable basé sur React et Node.js.</p>
-                    <a href="#">Voir le projet</a>
-                </div>
-                <div class="project-card">
-                    <h3>Projet 2</h3>
-                    <p>Un outil de gestion conçu avec Python et Flask.</p>
-                    <a href="#">Voir le projet</a>
-                </div>
-                <div class="project-card">
-                    <h3>Projet 3</h3>
-                    <p>Un site dynamique réalisé avec Next.js.</p>
-                    <a href="#">Voir le projet</a>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email : <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
-            <p>LinkedIn : <a href="https://linkedin.com/in/tonprofil" target="_blank">tonprofil</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Ton Nom. Fait avec ❤️ et du code.</p>
-    </footer>
-</body>
-</html>
+<!--
+*** Merci d'avoir consulté le modèle Best-README. Si vous avez une suggestion
+*** qui pourrait l'améliorer, merci de forker le repo et de créer une pull request
+*** ou simplement ouvrir un problème avec le tag "enhancement".
+*** Merci encore ! :D
+-->
+
+<!-- Readme principal du projet -->
+<!--
+*** J'utilise des liens markdown "style référence" pour plus de lisibilité.
+*** Les liens de référence sont mis entre crochets [ ] au lieu de parenthèses ( ).
+*** Voir le bas de ce document pour la déclaration des variables de référence.
+*** pour contributeurs-url, forks-url, etc. Voici une syntaxe optionnelle et concise que vous pouvez utiliser.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+# ![left 100%](Mettre son propre logo)
+
+## Auteur
+
+👤**Nom Prénon** [🇫🇷 Contactez moi 🇬🇧](<exemple@email.com>)
+
+* Github: [@son ID](https://github.com/son ID)
+* LinkedIn: [@son ID](https://www.linkedin.com/in/son ID)
+
+***
+
+### 📎 Projet XX - Nom du projet
+
+![left 100%](bandeau du projet.png?raw=true)
+
+_`Début du projet le DATE`_
+
+<!-- LOGO DU PROJET -->
+<br />
+<p align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+<!-- DESCRIPTION DU PROJET -->
+  <h3 align="center">Titre du projet</h3>
+  <p align="center">
+  Mettre une description du projet :<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <br />
+    <a href="https://github.com/github_username/repo_name"><strong>>> Explorer les documents <<</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo_name">Voir la démo</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/pulls">Rapport de Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Demande de fonctionnalité</a>
+  </p>
+</p>
+
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+</div>
+
+***
+
+<!-- TABLE DES MATIÈRES -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table des matières</h2></summary>
+  <ol>
+    <li>
+      <a href="#a-propos-du-projet">A propos du projet</a>
+      <ul>
+        <li><a href="#construit-avec">Construit avec</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#commencer-à-travailler">Commencer à travailler</a>
+      <ul>
+        <li><a href="#conditions-préalables">Conditions préalables</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#utilisation">Utilisation</a></li>
+    <li><a href="#feuille-de-route">Feuille de route</a></li>
+    <li><a href="#contribution">Contribution</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#remerciements">Remerciements</a></li>
+  </ol>
+</details>
+
+<!-- A PROPOS DU PROJET -->
+## A propos du projet
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Voici un modèle vierge pour commencer :
+**Pour éviter de retaper trop d'informations. Faites une recherche et un remplacement avec votre éditeur de texte pour les éléments suivants:**
+
+`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+
+### Construits avec
+
+* []()
+* []()
+* []()
+
+<!-- COMMENCER A TRAVAILLER -->
+## Commencer à travailler
+
+Pour mettre en place une copie locale, suivez ces quelques étapes simples.
+
+### Conditions préalables
+
+Voici un exemple de la liste des éléments dont vous avez besoin pour utiliser le logiciel et de la façon de les installer.
+
+* npm
+
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+
+3. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+4. Enter your API in `config.js`
+
+   ```JS
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<!-- EXEMPLES D'UTILISATION -->
+## Utilisation
+
+Utilisez cet espace pour montrer des exemples utiles de la façon dont un projet peut être utilisé. Des captures d'écran supplémentaires, des exemples de code et des démos fonctionnent bien dans cet espace. Vous pouvez également créer un lien vers d'autres ressources.
+
+_Pour plus d'exemples, veuillez vous référer à la [Documentation] (https://example.com)._
+
+<!-- FEUILLE DE ROUTE -->
+## Feuille de route
+
+Voir le [open issues](https://github.com/github_username/repo_name/issues) pour une liste des fonctionnalités proposées (et des problèmes connus).
+
+<!-- CONTRIBUTION -->
+## Contribuer
+
+Les contributions sont ce qui fait de la communauté open source un endroit si incroyable pour apprendre, inspirer et créer. Toutes les contributions que vous faites sont **grandement appréciées**.
+
+1. Forkez le projet
+2. Créez votre branche Feature (`git checkout -b feature/AmazingFeature`)
+3. Commitez vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Pusher vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
+
+<!-- LICENCE -->
+## Licence
+
+Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+
+<!-- CONTACT -->
+## Contact
+
+Votre nom - [@twitter_handle](https://twitter.com/twitter_handle) - email
+
+Lien vers le projet : [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+
+<!--Remerciements -->
+## Remerciements
+
+* []()
+* []()
+* []()
+
+<!-- MARKDOWN LIENS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
