@@ -40,26 +40,9 @@ _`Coming Soon`_
   <p align="center">
   Mettre une description du projet :<br>Construction of our RP server on FiveM is small! 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>>> Explorer les documents <<</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">Voir la démo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/pulls">Rapport de Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Demande de fonctionnalité</a>
-  </p>
 </p>
 
 <div align="center">
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-</div>
 
 ***
 
