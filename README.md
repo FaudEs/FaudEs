@@ -14,18 +14,15 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-# ![left 100%](Mettre son propre logo)
-
 ## Auteur
 
-👤**Nom Prénon** [🇫🇷 Contactez moi 🇬🇧](<exemple@email.com>)
+👤**FaudEs**
 
-* Github: [@son ID](https://github.com/son ID)
-* LinkedIn: [@son ID](https://www.linkedin.com/in/son ID)
+* Github: [@son ID](https://github.com/FaudEs ID)
 
 ***
 
-### 📎 Projet XX - Nom du projet
+### 📎 Projet VersaTeam
 
 ![left 100%](bandeau du projet.png?raw=true)
 
