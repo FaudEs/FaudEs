@@ -1,8 +1,8 @@
-const toggleButton = document.getElementById("toggle-theme");
-
-toggleButton.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-    toggleButton.textContent = document.body.classList.contains("dark-mode")
-        ? "☀️ Mode Clair"
-        : "🌙 Mode Sombre";
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
