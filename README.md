@@ -3,83 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background: #003366;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #00b4d8;
-            padding: 0.5rem;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            margin-top: 2rem;
-            padding: 1rem;
-            background: #003366;
-            color: #fff;
-        }
-    </style>
+    <title>Mon Portfolio GitHub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur ma page GitHub</h1>
+        <div class="container">
+            <h1>Bienvenue sur mon portfolio</h1>
+            <p>Développeur passionné | Créateur de solutions modernes</p>
+            <button id="toggle-theme">🌙 Mode Sombre</button>
+        </div>
     </header>
+
     <nav>
-        <a href="#about">À propos</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <div class="container">
+
+    <main>
         <section id="about">
             <h2>À propos de moi</h2>
-            <p>Développeur passionné par le web et les nouvelles technologies. Toujours prêt à apprendre et à relever de nouveaux défis.</p>
+            <p>
+                Salut ! Je suis un développeur full-stack avec une passion pour la création de projets innovants.
+                Toujours en quête d'apprentissage et d'amélioration.
+            </p>
         </section>
+
         <section id="projects">
             <h2>Mes projets</h2>
-            <ul>
-                <li><a href="#">Projet 1</a></li>
-                <li><a href="#">Projet 2</a></li>
-                <li><a href="#">Projet 3</a></li>
-            </ul>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Projet 1</h3>
+                    <p>Un projet incroyable basé sur React et Node.js.</p>
+                    <a href="#">Voir le projet</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projet 2</h3>
+                    <p>Un outil de gestion conçu avec Python et Flask.</p>
+                    <a href="#">Voir le projet</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projet 3</h3>
+                    <p>Un site dynamique réalisé avec Next.js.</p>
+                    <a href="#">Voir le projet</a>
+                </div>
+            </div>
         </section>
+
         <section id="contact">
             <h2>Contact</h2>
             <p>Email : <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
+            <p>LinkedIn : <a href="https://linkedin.com/in/tonprofil" target="_blank">tonprofil</a></p>
         </section>
-    </div>
+    </main>
+
     <footer>
-        <p>© 2024 Ton Nom. Tous droits réservés.</p>
+        <p>© 2024 Ton Nom. Fait avec ❤️ et du code.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
