@@ -24,7 +24,7 @@
 
 ### 📎 Projet VersaTeam
 
-<img src="bandeau du projet.png" alt="images/bandeau du projet" width="80" height="80">
+<img src="bandeau du projet.png" alt="images/bandeauduprojet" width="80" height="80">
 
 _`Coming Soon`_
 
