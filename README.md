@@ -3,18 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio GitHub</title>
+    <title>Navigation et Sections</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Bienvenue sur mon portfolio</h1>
-            <p>Développeur passionné | Créateur de solutions modernes</p>
-            <button id="toggle-theme">🌙 Mode Sombre</button>
-        </div>
-    </header>
-
     <nav>
         <ul>
             <li><a href="#about">À propos</a></li>
@@ -63,7 +55,5 @@
     <footer>
         <p>© 2024 Ton Nom. Fait avec ❤️ et du code.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
