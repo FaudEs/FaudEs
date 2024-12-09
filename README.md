@@ -36,9 +36,9 @@ _`Coming Soon`_
   </a>
 
 <!-- DESCRIPTION DU PROJET -->
-  <h3 align="center">Titre du projet</h3>
+  <h3 align="center">Project FaudEs</h3>
   <p align="center">
-  Mettre une description du projet :<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Mettre une description du projet :<br>Construction of our RP server on FiveM is small! 
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>>> Explorer les documents <<</strong></a>
     <br />
