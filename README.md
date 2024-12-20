@@ -4,22 +4,18 @@ Welcome to my GitHub profile! I'm a passionate developer always eager to learn a
 
 ## About Me
 
-- 🌱 I’m currently learning [your current learning focus, e.g., "Full Stack Development", "Machine Learning", etc.].
-- 🔭 I’m working on [any projects you're currently working on].
-- 👯 I’m looking to collaborate on [projects or areas where you want to collaborate].
-- 🤔 I’m looking for help with [any area where you need help].
-- 💬 Ask me about [your areas of expertise or interests].
-- 📫 How to reach me: [your contact info, e.g., email, LinkedIn, Twitter, etc.].
-- 😄 Pronouns: [your pronouns if you want to share them].
-- ⚡ Fun fact: [a fun fact about you].
+- 🌱 I’m currently learning
+- 🔭 I’m working on my roleplay server.
+- 💬 Ask me about I'm just a chill guy.
+
 
 ## Languages and Tools
 
 Here are some of the languages and tools I frequently use:
 
-- Programming Languages: [list of programming languages you know]
-- Frameworks and Libraries: [list of frameworks and libraries you use]
-- Tools: [list of development tools you use]
+- Programming Languages: [LUA; PY; C#]
+- Frameworks and Libraries: [ESX]
+- Tools: [VSC]
 
 ## GitHub Stats
 
@@ -34,9 +30,5 @@ Here are some of the languages and tools I frequently use:
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-## Connect with me
-
-- [LinkedIn](your-linkedin-profile)
-- [Twitter](your-twitter-profile)
 
 Thanks for visiting my profile, and feel free to check out my repositories!
